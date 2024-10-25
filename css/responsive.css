@@ -1,0 +1,83 @@
+@media (max-width:575px) {
+    nav .nav-left img {
+display: none;
+    }
+    nav .sidebyside {
+        justify-content: center;
+    }
+    nav .nav-right ul {
+        column-gap: 22px;
+    }
+
+    #banner img {
+        display: none;
+    }
+#banner{
+    text-align: center;
+}
+    #banner h1 {
+        font-size: 41px;
+        line-height: 61px;
+    }
+    #banner p {
+        font-size: 15px;
+        margin: 18px auto;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767.99px){
+    nav .sidebyside {
+        justify-content: space-around;
+        align-items: center;
+    }
+    #banner h1 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+
+    #banner p {
+        font-size: 14px;
+    }
+
+    .banner-left{
+        padding-left: 5px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.99px){
+    nav .sidebyside {
+        justify-content: space-around;
+        align-items: center;
+    }
+    #banner h1 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+
+    #banner p {
+        font-size: 14px;
+    }
+
+    .banner-left{
+        padding-left: 10px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.99px){
+    nav{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    nav .sidebyside {
+        align-items: center;
+    }
+    #banner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1399.99px){
+    
+}
