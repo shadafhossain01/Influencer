@@ -179,3 +179,85 @@ font-size: 24px;
 #collection a i{
     margin-left: 3px;
 }
+
+/*  Feature CSS */
+
+#feature .sidebyside{
+    column-gap: 96px;
+    align-items: center;
+}
+
+#feature .feature-right h2{
+    color: #0A0826;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+#feature .feature-right p{
+margin: 16px 0px;
+color: #6C6C6C;
+font-weight: bold;
+font-size: 16px;
+line-height: 28px;
+max-width: 501px;
+
+}
+
+#feature .feature-right a{
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #E02C6D;
+
+}
+
+#feature .feature-right a i{
+    margin-left: 8px;
+}
+
+/*  Footer Css */
+
+footer{
+    margin-top: 90px;
+    background-color: #0A0826;
+    padding:50px 0px ;
+    text-align: center;
+}
+
+footer h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer h4{
+    font-weight: 400;
+    color: #D9DBE1;
+    font-size: 17px;
+    margin: 5px 0px;
+}
+
+footer p{
+    font-weight: 400;
+    color: #D9DBE1;
+    font-size: 14px;
+    margin: 5px 0px;
+}
+
+footer  i{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 32px !important;
+    text-align: center;
+    color: #fff;
+    background-color: #22213C;
+    margin-left: 10px;
+    margin-top: 20px;
+}
