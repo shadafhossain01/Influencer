@@ -6,7 +6,7 @@ display: none;
         justify-content: center;
     }
     nav .nav-right ul {
-        column-gap: 22px;
+        column-gap: 12px;
     }
 
     #banner img {
@@ -26,11 +26,11 @@ display: none;
 
     .brands_image {
         gap: 25px 20px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .collection-items {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         padding: 0;
     }
     #collection {
@@ -50,6 +50,10 @@ display: none;
 
     #feature .feature-right {
         text-align: center;
+    }
+
+    .feature-left img{
+        width: 100%;
     }
 
 }
